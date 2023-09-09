@@ -1,0 +1,438 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sprint_devloping_industial_capiblities"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "create:extendo_grip"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "4DE16B05CB450403"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["<&9Berlin&r>: cogs move force in two directions, and also reverse the rotation along one direction."]
+			id: "49CC34472739626C"
+			tasks: [{
+				count: 16L
+				id: "75CFEB037B04C78B"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			title: "Corporate Cog"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "21A92F79123CF944"
+			tasks: [{
+				count: 2L
+				id: "55975A79AEA90F4A"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "664B9BAB1AD68F30"
+			tasks: [{
+				id: "6D509A726047D0EC"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["53390258A7587154"]
+			id: "5584593AE0D766CB"
+			tasks: [{
+				id: "7CB6B2E5B30E3EAC"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "67BC4FF4BAEF59AD"
+			tasks: [{
+				id: "23377AE022D47BB8"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"<&9Berlin&r>:ok these things are really nice"
+				"<&9Berlin&r>:you can pretty mcuh throw away your furnace after making these fans"
+			]
+			id: "062FB5B6959DD3B8"
+			tasks: [
+				{
+					count: 3L
+					id: "7E054B9A14FB7109"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "486578E8ED80B0F9"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "202A09904F2593EF"
+			tasks: [{
+				count: 2L
+				id: "614195120F3A8175"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "4A09CEF384BB53DC"
+			tasks: [{
+				count: 3L
+				id: "3C3B310C24FB2659"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"<&9Berlin&r>:ok so make something like this:"
+				""
+				""
+				"{image:create:block/depot_side width:10 height:10 align:1}"
+				"{image:minecraft:item/campfire width:10 height:10 align:1}"
+				"{image:create:block/fan_side width:10 height:10 align:1}"
+				"{image:create:block/encased_chain_drive width:10 height:10 align:1 fit:false}"
+				""
+				"<&eYou&r>: woah"
+				"<&eYou&r>: i didnt even know u could embed things like that in chat"
+				"<&9Berlin&r>: pretty cool right?"
+				"<&9Berlin&r>: just build all the fans right next to eachother, and put the campfire in the middle so the lava and water dont touch"
+			]
+			id: "16C39B5B9DEE0B62"
+			tasks: [
+				{
+					id: "4138C518CC1164FF"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "2831175C45CFA41C"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "59DA69458602C2C3"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "6094459505A6DBEC"
+			tasks: [{
+				id: "789714C0523747BE"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			id: "48B7AF27B3C3664A"
+			tasks: [{
+				id: "08A4AB4FBAA818C9"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			id: "79FA888AF9D57D36"
+			tasks: [{
+				id: "4606B23CCE8A15AA"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			id: "290068530B01A941"
+			tasks: [{
+				id: "3D4BA021F816B530"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"<&9Berlin&r>: these guys can be used to speed up the rotation rate of whatever you are making."
+				"<&9Berlin&r>: give them a ponder!"
+			]
+			id: "7EB627F2088A42C4"
+			tasks: [{
+				count: 4L
+				id: "7F1972602F0DF2BD"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			title: "Large Corporate Cog"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "07CD29C4768DF9E0"
+			tasks: [{
+				id: "6136988B4ECAAD16"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			id: "392D35004673CA3F"
+			tasks: [{
+				id: "7E3F2BEC4F95DE9A"
+				item: "create:mechanical_roller"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			id: "245050D1AB140B13"
+			tasks: [{
+				id: "0EEE70AD591ACC0D"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "4C13C504F0E11174"
+			tasks: [{
+				id: "7AAF463C509842B2"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "40329B521958E373"
+			tasks: [{
+				id: "6006A32DBF04AE4E"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			id: "4B17429847CAA9F7"
+			tasks: [{
+				id: "74587E70DDD16402"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			id: "17B15D070B8A8D2E"
+			tasks: [{
+				id: "520972BEF574820C"
+				item: "create:elevator_pulley"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			id: "3785D224E5B9F9AB"
+			tasks: [{
+				id: "6751FB7D104F235F"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Hello,"
+				"Allow me to introduce myself. My name is Berlin, I have been with the company for about 4 years now. "
+				"Welcome to White Collar Crafters! I heard you recently came on the team and completed your onboarding. We really want to build up our Create knowledge across our engineering team, and I have been taking time to train new employees. I have about 6 years of create experience at this point, and became the go-to person anytime someone had a problem. Anyway, I will send some basic pointers so keep your eyes peeled for those. If you have any questions, reach out! "
+				""
+				"All the best,"
+				"Berlin"
+				"==============================="
+				"to:BerlinWall@WCC.comgov"
+				"RE:"
+				""
+				"Thanks for reaching out! I appreciate it. I will let you know once I have some material ready for my first project."
+			]
+			id: "08BA59CD3EC47CC8"
+			subtitle: "from:BerlinWall@WCC.comgov"
+			tasks: [{
+				id: "6E7DF9BC335C989D"
+				title: "create engineer SME"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["29372E004906ED1E"]
+			id: "2063D1169BCADD61"
+			tasks: [{
+				id: "777F578312A2784D"
+				title: "the fun stuff"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"<&eYou&r>: hey berlin"
+				"<&eYou&r>: i have some wood, some andesite and some zinc, what should i do next?"
+				"<&9Berlin&r>: nice!"
+				"<&9Berlin&r>: ok, first thing you are going to want to make is a press for plates, so you can get the wrench. you are way too busy to be mining things slowly with your pick."
+				"<&9Berlin&r>: also dont forget to ponder things. seriously its so cool i end up not even realizing they ended lol"
+			]
+			id: "53390258A7587154"
+			tasks: [{
+				id: "60CD2F711704D57E"
+				title: "first things to make"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A81E963B37C9627"]
+			description: [
+				"<&eYou&r>: ok, wrench has been acquired"
+				"<&eYou&r>: whats next?"
+				"<&9Berlin&r>: you are going to want to make a workshop"
+				"<&9Berlin&r>: these quests are everything you should have to make a decent one."
+				"<&9Berlin&r>: i would also consider upgrading your power source, a windmill should do."
+			]
+			id: "18C0F16F24580136"
+			tasks: [{
+				id: "7BB17AC744902C50"
+				title: "the basics"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			description: ["<&9Berlin&r>: just put this with a one block space below it, and throw some gold under it. boom, plates"]
+			id: "57A1CEE41B096B55"
+			tasks: [{
+				id: "2E1549C2569808ED"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			description: ["<&9Berlin&r>: this is the smaller and cheaper way to make force. it should be enough for your crusher."]
+			id: "668B175D3BCE0E04"
+			tasks: [{
+				id: "6AE89BD94704F679"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5584593AE0D766CB"]
+			description: [
+				"hey, how do you have 6 years of create experience? Didnt that mod only come out 4 years ago?"
+				""
+				"<&9Berlin&r>: ahh yea. that is true. i joined here around the same time, and really liked it. no one else really knew anything about it and i had a knack from my mech eng background. anyway i got pidgeonholed pretty hard and ended up having to work 60 hour weeks just to keep up with all the demands of me."
+				"<&9Berlin&r>: so yeah, six years of experience in 4 years :)"
+			]
+			id: "0A81E963B37C9627"
+			tasks: [{
+				id: "1A8B96DB32859398"
+				title: "Chat Log: 6 years?"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["18C0F16F24580136"]
+			description: [
+				"60 hour weeks for four years sounds really tough. i'm surprised you managed."
+				""
+				"<&9Berlin&r>: it was nice at first, being the girl for create. but by year 2, it was beginning to become impossible to juggle the project management stuff i would always get roped into because of my knowledge, and the actual technical tasks. i was kind of dreading going to work, and my old manager did not care. as long as i kept pumping out results, that was all that mattered. luckly they left the company and i got a new one, he pushed really hard for me to train other people on create so it doesnt all fall on my shoulders."
+			]
+			id: "29372E004906ED1E"
+			tasks: [{
+				id: "5182A99E4E4E6781"
+				title: "Chat Log: burnout"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			id: "04EA6FCB980A6774"
+			tasks: [{
+				id: "0F2F0D82522115B4"
+				title: "contraptions"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			description: ["<&9Berlin&r>: shafts move force in one direction."]
+			id: "51B917C00EAF9247"
+			tasks: [{
+				count: 16L
+				id: "20A1D6FC932A52F7"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+	]
+	title: "Sprint: Developing Industrial Capabilities"
+}

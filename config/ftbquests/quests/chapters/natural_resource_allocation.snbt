@@ -1,0 +1,202 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "natural_resource_allocation"
+	group: ""
+	icon: "minecraft:gold_ingot"
+	id: "63B6E279DE6A29F9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Utilize forestry techniques to gather resources necessary to construct employee shelter structures.  "]
+			id: "6D1A10F0954ADB66"
+			rewards: [{
+				count: 3
+				id: "27BDE212FF3CFB9C"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "As a player, I want to have 64 wood so I can build a house"
+			tasks: [{
+				count: 64L
+				id: "52FFC2ED26E8614B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "User Story: Harvest Wood"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Hop on a quick call to iron out how much iron we need?"
+				""
+				"Mike invited you to a Zoom Meeting (3 hours)"
+			]
+			id: "6024CF178F29C77E"
+			subtitle: "From:MikeRotch@WCC.comgov"
+			tasks: [{
+				count: 64L
+				id: "0B274A6B023607E1"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Quick Call?"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Hey, I am having a lot of trouble defeating the wall of flesh. Do you know how I can do that? Is gold armor good enough for it?"
+				""
+				"------------------------------------"
+				"Compose Mail:"
+				""
+				"No, I don't know anything about that. I am actually in the Minecraft division. I heard Joe Mama worked on the Terraria project a while back though."
+				""
+				"[Cancel]   Send--->"
+			]
+			id: "6E0CB3D10D8451E3"
+			subtitle: "From: IvanaTinkle@WCC.comgov"
+			tasks: [{
+				id: "7E44E05D38022227"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "Hey, can you help me out with this?"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "7B85068F7FBA2DA2"
+			tasks: [{
+				id: "1A1B7F86B6773E18"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "4E5FFBCDB3B98275"
+			tasks: [{
+				id: "071823632421457E"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: ["WOW! I cant belive it! when I swim out of the nether lava lakes, I get totally swarmed with babes! You gotta buy one right now, I have the recipie availible for another 2 days!"]
+			id: "3EE8C2BBD569CE24"
+			subtitle: "From:diamondhands42@vector.comgov"
+			tasks: [
+				{
+					id: "0CE646516C2DB6C3"
+					item: {
+						Count: 1b
+						id: "create:netherite_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F7E2485E3EF7919"
+					item: {
+						Count: 1b
+						id: "create:netherite_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6593B0D7DFC7626A"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7109DD66356A0053"
+					item: {
+						Count: 1b
+						id: "create:netherite_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "EXTERNAL FW:FW:FW Epic! Lava diving suit! gotta try it!"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "6192E2B5DE276267"
+			tasks: [{
+				id: "0B5A5C699FD8D66C"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "627FA139A531F853"
+			tasks: [{
+				id: "39540C48FB6D6036"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "4FEE735E35D92BC1"
+			tasks: [{
+				id: "0BEA7CB042D99359"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "1BAAD156D2A2BC08"
+			tasks: [{
+				id: "27C3961C97D67C73"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+	]
+	title: "Sprint: Natural Resource Allocation"
+}

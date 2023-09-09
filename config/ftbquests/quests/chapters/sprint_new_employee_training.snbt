@@ -1,0 +1,297 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sprint_new_employee_training"
+	group: ""
+	icon: "botania:cosmetic_hyper_plus"
+	id: "6C75BBD227378F08"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Management would like to thank you for participating in the pilot program of our digital transformation initiative. We hope that this development program allows you to meet your personal and professional goals in a more effective and agile manner!"]
+			id: "142B1B79E7D32E33"
+			rewards: [{
+				id: "6A27217142FCAEEA"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "From:JoeMama@WCC.comgov"
+			tasks: [{
+				id: "57BB60EB6E458999"
+				title: "Digital Transformation Comes to Minecraft!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Wow, this daily standup sure is going for a long time. Survive an entire week of daily standups!"]
+			id: "259474F779C24400"
+			rewards: [{
+				count: 3
+				id: "206F170682B82805"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:iron_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1DC3F1E2F2ADBDD2"
+				stat: "minecraft:time_since_death"
+				title: "Survive One Week"
+				type: "stat"
+				value: 168000
+			}]
+			title: "Daily Standup: One Week"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Dear [Player's Name],"
+				""
+				"We extend our warmest welcome to you as you embark on your assignment within the Minecraft world on behalf of White Collar Crafting!. As you delve into this pixelated realm, it is crucial to remain vigilant and aware of the inherent risks. Our comprehensive guide contains invaluable information, and we emphasize the importance of heeding its advice. Notably, the vast and ominous forests within this world harbor creatures of formidable nature. Terrible monsters, beyond the familiar Creepers and Endermen may lurk in the shadows, posing threats to your progress and well-being. We urge you to exercise utmost caution, adhere to safety protocols, and employ your acquired skills to navigate these treacherous terrains safely. Your success in this mission depends on your ability to overcome these challenges while contributing to our organizational goals. Stay vigilant, stay safe."
+				""
+				"Best Regards,"
+				""
+				"Joe Mama"
+				"Agile Coach"
+			]
+			hide_details_until_startable: false
+			id: "3B62F978FE0283DE"
+			rewards: [{
+				id: "5DB02764A77ECE97"
+				item: "hexerei:crow_spawn_egg"
+				type: "item"
+			}]
+			subtitle: "From:JoeMama@WCC.comgov"
+			tasks: [{
+				id: "69C219EF49583E60"
+				title: "Visit any Forest"
+				type: "checkmark"
+			}]
+			title: "Warning: Unforeseen Challenges in the Minecraft World"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"In the dynamic realm of Minecraft, holding a daily standup is not just a routine, it's a cornerstone of our agile approach. These daily gatherings serve as the compass guiding our team through the intricate maze of tasks and challenges."
+				""
+				"The daily standup, often called the \"Daily Scrum\" in agile jargon, provides an invaluable opportunity for our team members to synchronize their efforts. It's a brief but essential moment where we share our progress, discuss roadblocks, and align our priorities. Survive a daily standup!"
+			]
+			id: "6D46C9EC41DE2D03"
+			rewards: [{
+				id: "7C857A9384B5753D"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:iron_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "42C637F18D916A38"
+				stat: "minecraft:time_since_death"
+				title: "Survive One Day"
+				type: "stat"
+				value: 168000
+			}]
+			title: "Daily Standup: One Day"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			description: ["A daily standup lasting an entire month is actually on the quicker side around here! Good job!"]
+			id: "297182B473255640"
+			rewards: [{
+				count: 21
+				id: "43ED4245ECD8D03B"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:iron_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6D5E34B81434A192"
+				stat: "minecraft:time_since_death"
+				title: "Daily Standup"
+				type: "stat"
+				value: 840000
+			}]
+			title: "Daily Standup: One Month"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			description: ["Survive two week of daily standups! Your feet must be getting pretty tired by now."]
+			id: "679DFA879965EA35"
+			rewards: [{
+				count: 8
+				id: "216865DD4093E1B1"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:iron_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "17BBFC34B3BEAE6C"
+				stat: "minecraft:time_since_death"
+				title: "Daily Standup"
+				type: "stat"
+				value: 336000
+			}]
+			title: "Daily Standup: Two Weeks"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Dear [Player's Name],"
+				""
+				"We trust that your journey in the Minecraft world is progressing well, but we must bring a matter of grave concern to your attention. Beyond the usual challenges posed by the Creepers and Zombies, there exists something far more ominous in the depths of the caves. Reports from previous explorers indicate the presence of an entity that defies conventional understanding, a creature darker and more malevolent than any encountered before. Its haunting presence is often accompanied by an eerie, otherworldly atmosphere. We implore you to exercise extreme caution when venturing into these subterranean realms, and if you happen upon this enigmatic force, prioritize your safety above all else. Document any encounters, gather data, but do not engage without the utmost preparation. The future of our mission may depend on your ability to navigate these uncharted depths and reveal the secrets hidden within. Stay vigilant, stay safe."
+				""
+				"Best Regards,"
+				""
+				"Joe Mama"
+				"Agile Coach"
+			]
+			hide_details_until_startable: false
+			id: "595A7FA64678A868"
+			invisible: true
+			rewards: [{
+				id: "1DB67701099E31B9"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "From:JoeMama@WCC.comgov"
+			tasks: [{
+				biome: "wythers:underground"
+				icon: {
+					Count: 1b
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2BBBF1D65A940BCA"
+				type: "biome"
+			}]
+			title: "URGENT: Beware the Unearthly Presence in the Caves"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			description: ["It has come to our attention that some employees are using their story points to create unruly flocks of birds. We would like to remind you of White Collar Crafter's core values, one of which is not to create excessive flocks of birds. Violation of directive WCC-47 can result in a negative performance review."]
+			icon: "hexerei:crow_spawn_egg"
+			id: "7F12EDBBA1B64C93"
+			rewards: [{
+				command: "/kill @e[type=hexerei:crow,name='Story Point']"
+				id: "4B13163C691B1353"
+				player_command: false
+				type: "command"
+			}]
+			subtitle: "From:MayaButtreeks@WCC.comgov"
+			tasks: [{
+				id: "4EA567A1B6B0D828"
+				title: "Misuse of company assets"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"In order to better allow our employees to meet our company goals, we have enabled quarters on your minecraft world!"
+				"This exciting new feature allows you to make sure you are on track to supporting our business needs for the year. "
+				"The quarters are distinguished as follows:"
+				"&aQuarter One: Normal leaves and grass.&r"
+				"&2Quarter Two: Bright green leaves and grass.&r"
+				"&6Quarter Three: Leaves turn orange, fall from the trees frequently. &r"
+				"&fQuarter Four: Snow falls from the sky, water freezes. Leaves and grass are gray.&r"
+			]
+			id: "099ADDF700D95DCA"
+			rewards: [{
+				id: "5E22D23F7C299BF9"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FB210EDB6388AEF"
+				title: "New Quarterly Initiative"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+	]
+	title: "Sprint: New Employee Training"
+}

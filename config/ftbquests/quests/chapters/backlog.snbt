@@ -1,0 +1,375 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "backlog"
+	group: ""
+	icon: "minecraft:diamond_block"
+	id: "162FD5C2321BBB33"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7B85068F7FBA2DA2"]
+			description: [""]
+			icon: "minecraft:diamond_block"
+			id: "7FF3AB9704861FF5"
+			rewards: [{
+				id: "035ED76A68D30641"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "65E04A0A99A620F2"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Bonus Diamond Allocation"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Dear [Player's Name],"
+				""
+				"We are pleased to inform you that your exceptional contributions to White Collar Crafting's Minecraft expedition have not gone unnoticed. In recognition of your dedication and achievements, we have made the employee bonus store available to you. All materials you purchase are yours to craft with as you see fit."
+				""
+				"These awards represent both a token of our appreciation and an opportunity for you to further your in-game endeavors. Whether you choose to forge a mighty sword, craft exquisite armor, or invest it in a grand project, the decision is entirely yours."
+				""
+				"Please refer to document WCC-22 for complete bonus structure terms. Employees should note that any material, engineering discovery, patents or structures created by the employee are property of WCC, LLC. "
+				""
+				"Maya Buttreeks"
+				"HR Bonus Coordinator"
+			]
+			id: "0533D9D3B4D7AB4C"
+			subtitle: "From:MayaButtreeks@WCC.comgov"
+			tasks: [{
+				id: "5CBB6D206B2720DA"
+				title: "Employee Bonus Structure"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6024CF178F29C77E"]
+			icon: "minecraft:iron_block"
+			id: "4B1685AD53384EEC"
+			rewards: [{
+				id: "0BD3160E5FA5359D"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "5FB64203CAA9063E"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Bonus Iron Allocation"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6E0CB3D10D8451E3"]
+			icon: "minecraft:gold_block"
+			id: "4EA38270ADB5A820"
+			rewards: [{
+				id: "4DD4CF31277D98FE"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "13FC926F615FB63A"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Bonus Gold Allocation"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			icon: "minecraft:ender_pearl"
+			id: "70DBC3085C8BCB6E"
+			rewards: [{
+				id: "483627B213C58BA6"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70186F6DFD85A628"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Bonus Ender Pearl Allocation"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:experience_bottle"
+			id: "1C85A3255C86AA9E"
+			rewards: [{
+				count: 24
+				id: "74E8FDCE80B2DD77"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "406C0B3592309EFE"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Bonus EXP Allocation"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			icon: "botania:rune_water"
+			id: "59B6DA350FDC38E3"
+			rewards: [
+				{
+					id: "6B777FE265D51E79"
+					item: {
+						Count: 1b
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "017D4018E617EBD2"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "44104B6599E5034A"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F07D66B8754BF5A"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Bonus Water Rune Items"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			icon: "botania:rune_fire"
+			id: "03651F0C0A510658"
+			rewards: [
+				{
+					id: "284CE1A5BCF36D33"
+					item: "minecraft:nether_brick"
+					type: "item"
+				}
+				{
+					id: "0F7373C990B71363"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "39590E41FA9FF1EA"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "553C9D4E71B79949"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Bonus Fire Rune Items"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			icon: "botania:rune_earth"
+			id: "1683BA6D559E0BFC"
+			rewards: [
+				{
+					id: "4367222D43843CAB"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					id: "5BBC3C0F1D0C1AFC"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					id: "4652E9E16F52F064"
+					item: "minecraft:stone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0656DAEEAA7E5173"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Bonus Earth Rune Items"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			icon: "botania:rune_air"
+			id: "391A32D49F237730"
+			rewards: [
+				{
+					id: "75C00013060B457B"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					id: "18547D07BF8D8494"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "5AD5A3CAA1B6DB36"
+					item: "minecraft:white_carpet"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "11EC08F0BC9AB57D"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Bonus Air Rune Items"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			icon: "botania:black_lotus"
+			id: "211F6AD2DC3E2E37"
+			rewards: [{
+				id: "4DCFF6432A4B5928"
+				item: "botania:black_lotus"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47AF0B6D53C031B7"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Bonus Mana Allocation"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			icon: "create:gearbox"
+			id: "6888D9E8BDF0F51F"
+			rewards: [{
+				count: 4
+				id: "214258CD3A266281"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E54389AEB2A0F14"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+	]
+	title: "Employee Perks"
+}

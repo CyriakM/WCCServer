@@ -1,0 +1,423 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sprint_increase_floral_utilization"
+	group: ""
+	icon: "botania:creative_pool"
+	id: "652E89F3395B3C01"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "3C19AC832CCE4221"
+			rewards: [{
+				count: 8
+				id: "2F18AFE11F80AF22"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "As a user, I want to collect all mystical petals so I can craft botania flowers."
+			tasks: [
+				{
+					id: "33B74907102D5453"
+					item: "botania:white_petal"
+					type: "item"
+				}
+				{
+					id: "728F8E748E517134"
+					item: "botania:orange_petal"
+					type: "item"
+				}
+				{
+					id: "6893DD441BA205B6"
+					item: "botania:magenta_petal"
+					type: "item"
+				}
+				{
+					id: "44D07C7DA9113800"
+					item: "botania:light_blue_petal"
+					type: "item"
+				}
+				{
+					id: "048E94D80588C941"
+					item: "botania:yellow_petal"
+					type: "item"
+				}
+				{
+					id: "40C9FDE61D08CC73"
+					item: "botania:lime_petal"
+					type: "item"
+				}
+				{
+					id: "40C8196B3F63352B"
+					item: "botania:pink_petal"
+					type: "item"
+				}
+				{
+					id: "7A6E27BEF21F3615"
+					item: "botania:gray_petal"
+					type: "item"
+				}
+				{
+					id: "7E3A2F1BA1E3EF75"
+					item: "botania:light_gray_petal"
+					type: "item"
+				}
+				{
+					id: "4AD25EBD4DBD4D3B"
+					item: "botania:cyan_petal"
+					type: "item"
+				}
+				{
+					id: "5C864DA2925A3184"
+					item: "botania:purple_petal"
+					type: "item"
+				}
+				{
+					id: "1117C18C44B4D060"
+					item: "botania:blue_petal"
+					type: "item"
+				}
+				{
+					id: "79BE2B633936CF3B"
+					item: "botania:brown_petal"
+					type: "item"
+				}
+				{
+					id: "4C9D497D06365D82"
+					item: "botania:green_petal"
+					type: "item"
+				}
+				{
+					id: "5CF2D0B742A023C9"
+					item: "botania:red_petal"
+					type: "item"
+				}
+				{
+					id: "41A5ABAA96645A18"
+					item: "botania:black_petal"
+					type: "item"
+				}
+			]
+			title: "User Story: Mystical Petals"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"To: allemployees@WCC.comgov"
+				"-------------------------"
+				"Dear all valued WCC division employees,"
+				""
+				"Exciting news! We've made a remarkable discovery in the Minecraft world - the Botania Flowers. These unique blooms possess extraordinary powers that can elevate your abilities within the game significantly. We urge you to explore and harness their potential by referring to the provided guide. Your mastery of these magical flowers is pivotal to our mission's success. Keep us informed of your progress and discoveries. Best of luck on this captivating journey."
+				""
+				"Sincerely,"
+				""
+				"Moe Ronn"
+				"LMFE SSO PPE CFO Head Manager"
+			]
+			id: "5143E60DCD7EE9C9"
+			rewards: [{
+				id: "777818EB5AC89220"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			subtitle: "From:MoeRonn@WCC.comgov"
+			tasks: [{
+				id: "2C10916CFA7DC44E"
+				title: "Exciting Discovery: The Botania Flowers"
+				type: "checkmark"
+			}]
+			title: "All Employee Message: Botania"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5143E60DCD7EE9C9"]
+			dependency_requirement: "one_started"
+			description: [
+				"To: allemployees@WCC.comgov"
+				"-------------------------"
+				"unsubscribe"
+				""
+				"Sent with Outlook for IOS"
+			]
+			hide: true
+			hide_details_until_startable: false
+			id: "77B12CF427D8396B"
+			subtitle: "From: MikeRotch@WCC.comgov"
+			tasks: [{
+				id: "6E6A7342B567F117"
+				title: "RE: All Employee Message: Botania"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["77B12CF427D8396B"]
+			dependency_requirement: "one_started"
+			description: [
+				"To: allemployees@WCC.comgov"
+				"-------------------------"
+				"I am currently out of office supporting GFE GMO Ligma 7. For any immediate issues, please contact my manager, Hugh Jass. I will return to the office on 9/21. Thank you"
+			]
+			hide: true
+			id: "38F79327D8333770"
+			subtitle: "From: IvanaTinkle@WCC.comgov"
+			tasks: [{
+				id: "7C4DAEB40A1EA1E1"
+				title: "RE:RE: All Employee Message: Botania"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			id: "6255C402D9DFF69B"
+			tasks: [{
+				id: "6F5248D20B7E1FF0"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "51F00AF80652C4CF"
+			tasks: [{
+				id: "75851EBAD5A91588"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "65DE9D36D8D3C6F6"
+			tasks: [
+				{
+					id: "1D7C4F7EDE1185B4"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					id: "6A1E795741DDBCF4"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "6A3AAD8F31C5BFA8"
+			tasks: [{
+				id: "5E539BB7B1377812"
+				item: "botania:rannuncarpus"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			id: "6D979AB58A73693A"
+			tasks: [{
+				id: "6EA99901D419F67F"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			id: "5E567246B8D6496E"
+			tasks: [
+				{
+					id: "0519009D32E2E37C"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37DC8BED8992F55B"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2923F147194ACDBA"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BD06F29F0D26AE7"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "093E4C5241A56AA7"
+			tasks: [{
+				id: "115316012F90F36E"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			id: "3969369E9A7296D8"
+			tasks: [{
+				id: "77EAA28ECD1F65C2"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			id: "31F01D72BD2B6CB2"
+			tasks: [{
+				id: "45DF2A41A2B4953F"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "22A7FF15F34056DC"
+			tasks: [{
+				id: "565B15A25F11CDD4"
+				item: "botania:brewery"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "74E5212E325E5D66"
+			tasks: [{
+				id: "4862DE4496ED9F26"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "41DAC3872AB38DC2"
+			tasks: [{
+				id: "345CB8EBA48CFCB5"
+				item: "botania:entropinnyum"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			description: ["Finally, someone who will eat the last piece of cake in the break room!"]
+			id: "76E2F95B5BDF8BA5"
+			tasks: [{
+				id: "4475E3AA981634DD"
+				item: "botania:kekimurus"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "2F32ACBB095DEEE6"
+			tasks: [{
+				id: "5817873F71C9D0AE"
+				item: "botania:dandelifeon"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "75FC5E3F9787F174"
+			tasks: [
+				{
+					id: "5F93E7DC1835305A"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					id: "19932DF073A130AC"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			id: "3A2C0D338C278C2F"
+			tasks: [{
+				id: "6B7CF5C1E881D3CC"
+				item: "botania:munchdew"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "7BBE2D8A17FE3CF3"
+			tasks: [{
+				id: "768B06512CE0586D"
+				item: "botania:rainbow_rod"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			id: "145364A7103F1F82"
+			tasks: [{
+				id: "262F7AFE21646E85"
+				title: "Botania SME Contact"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+	]
+	title: "Sprint: Increase Floral Utilization "
+}

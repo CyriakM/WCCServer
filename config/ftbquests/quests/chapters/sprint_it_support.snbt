@@ -1,0 +1,92 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sprint_it_support"
+	group: ""
+	id: "3F4E76394B8A8CE0"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4C8471A468EA9990"
+			tasks: [{
+				id: "762C8509C876389C"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "4A75C35A24744A9D"
+			tasks: [{
+				id: "54ED637B8BF02F6E"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "4AF31452D8BFE8AB"
+			tasks: [{
+				id: "40B200052C227B6C"
+				item: "refinedstorage:1k_storage_part"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "343213E4D6F34B94"
+			tasks: [{
+				id: "552ADE9CDE833FFC"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "549960D90E2E4518"
+			tasks: [{
+				id: "7F7DBCE7763DB04E"
+				item: "refinedstorage:64k_storage_part"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "401ACA0D7AEF452C"
+			tasks: [{
+				id: "276C2B09C9C6CD01"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "3D929BBD01995BD7"
+			tasks: [{
+				id: "476D565131B0D096"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			id: "43BF078097CB7765"
+			tasks: [{
+				id: "109B9E7DBF7E896B"
+				item: "refinedstorage:16k_storage_part"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+	]
+	title: "Sprint: IT Support"
+}

@@ -1,0 +1,160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sprint_integrating_customer_needs"
+	group: ""
+	icon: "minecraft:cake"
+	id: "551FAFFB80D44D77"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: ["am i doing this right? my kid wont fall asleep unless i play her some music. get me some discs please."]
+			id: "0710A4F27E536C6A"
+			subtitle: "As a user, i wanna get my kid to sleep"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "4D9BE7058688274B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:music_discs"
+					}
+				}
+				title: "Any #minecraft:music_discs"
+				type: "item"
+			}]
+			title: "User Story: Music Disc"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			description: ["I need TNT for something. Please provide ASAP."]
+			id: "06D8C3EBEE2F7ABA"
+			subtitle: "As a user, I need TNT to accomplish my goals"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "01282C107135B352"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			title: "User Story: TNT"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			description: ["Its my kids birthday and he wants the cake from minecraft. I figured no better people to call right? "]
+			id: "62CA87969EAA40A5"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "7C2A663AF2018ADE"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			title: "User Story: Cake"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			description: ["complete story 3/25"]
+			id: "6662CB122756E375"
+			subtitle: "As a User, I need tea to increase my building potental"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "0B199B60663C58A0"
+				item: "create:builders_tea"
+				type: "item"
+			}]
+			title: "User Story: Builder's Tea"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			description: ["hi i need these for making clocks. my last guy who made these things shop blew up..."]
+			id: "30464B214C952002"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "196C5407C5E8EAF4"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			description: ["brooo i am soo hungry please i NEED this cinnabun "]
+			id: "477961D9CABF8857"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "47A299FF15542BB2"
+				item: "create:sweet_roll"
+				type: "item"
+			}]
+			title: "User Story: Sweet Roll"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "5D4EA69868D20BE6"
+			tasks: [{
+				consume_items: true
+				count: 48L
+				id: "4A6272AE8EF3E15F"
+				item: "create:chocolate_glazed_berries"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: ["My upstairs neighbor will not SHUT UP!!!!! lets see how he likes it when I push his floor up 1 meter."]
+			id: "14A32AC6A40D4D66"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "580A1BFAC31DA4C6"
+				item: "minecraft:piston"
+				type: "item"
+			}]
+			title: "User Story: Piston"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Dear [Player Name],"
+				""
+				"User stories are requests straight from our customers! All user stories can be automated using Create or Botania. Fufilling these requests allow us to meet our evolving customer demands and needs. "
+				""
+				"From,"
+				"Joe Mama"
+				"Agile Coach"
+			]
+			id: "726FFBC41DD6CEBC"
+			subtitle: "From:JoeMama@WCC.comgov"
+			tasks: [{
+				id: "65170A924485DFB3"
+				title: "User Stories"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+	]
+	title: "Sprint: Integrating Customer Needs"
+}

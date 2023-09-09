@@ -1,0 +1,262 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sprint_public_relations"
+	group: ""
+	icon: "minecraft:zombie_head"
+	id: "700095B7D240D0F1"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3B62F978FE0283DE"]
+			description: ["It avoids light."]
+			hide: true
+			id: "609598D3B605623C"
+			rewards: [{
+				count: 5
+				id: "610BB3C0E284C21E"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "As a User, I want to kill that thing."
+			tasks: [{
+				id: "170C5212273E89CD"
+				observe_type: 5
+				timer: 0L
+				title: "go looking in the woods at night..."
+				to_observe: "whisperwoods:hidebehind"
+				type: "observation"
+			}]
+			title: "User Story: WTF IS THAT"
+			x: -13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["595A7FA64678A868"]
+			hide: true
+			id: "7552F7FC66FD06B0"
+			subtitle: "As a user, I want to shit my pants."
+			tasks: [{
+				icon: "minecraft:white_candle"
+				id: "2002FD785584DCDE"
+				observe_type: 0
+				timer: 0L
+				title: "you will know it when you see it"
+				to_observe: "cavedweller:cavedweller"
+				type: "observation"
+			}]
+			title: "User Story: I do not like that."
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7552F7FC66FD06B0"]
+			hide: true
+			id: "16E63369D92C6BB5"
+			tasks: [{
+				entity: "cave_dweller:cave_dweller"
+				icon: {
+					Count: 1b
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0249D557F2E8F4C5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:zombie_head"
+			id: "1BF337AA4C4D60B0"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "6F9395BDC7EE8057"
+				type: "kill"
+				value: 25L
+			}]
+			x: -14.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:creeper_head"
+			id: "33D38965CE3C1D94"
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "6557864B930D2E37"
+				type: "kill"
+				value: 25L
+			}]
+			x: -14.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			id: "6EF40630A86B7038"
+			tasks: [{
+				entity: "botania:doppleganger"
+				icon: "botania:gaia_head"
+				id: "7B90917EF09CA0E4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: "architects_palette:ender_pearl_block"
+			id: "2A4C3FF19EEC683F"
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "34893C77F522CFAA"
+				type: "kill"
+				value: 10L
+			}]
+			x: -16.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:spider_eye"
+			id: "7FD82DFDFC97A7D9"
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "6B9F647713B85F2A"
+				type: "kill"
+				value: 25L
+			}]
+			x: -16.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:skeleton_skull"
+			id: "0D8EEEFB98F994D5"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "589E7D2FC4491BA6"
+				type: "kill"
+				value: 25L
+			}]
+			x: -17.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:blaze_rod"
+			id: "33A13E3273217387"
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "7485E99BEAF3FEF9"
+				type: "kill"
+				value: 25L
+			}]
+			x: -17.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			id: "779B654F7846FCAF"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "architects_palette:withered_osseous_skull"
+				id: "599049FEFF77DE4C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			id: "1ECAE3E038232FB5"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "529B368149608972"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			id: "43335469D3057B7E"
+			tasks: [{
+				entity: "whisperwoods:wisp"
+				id: "65CC7A3215BEF6FF"
+				type: "kill"
+				value: 10L
+			}]
+			x: -19.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			id: "4629B98D26AD5F02"
+			tasks: [{
+				entity: "whisperwoods:zotzpyre"
+				id: "1CBFD51945A14D74"
+				type: "kill"
+				value: 10L
+			}]
+			x: -19.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0E781C5FDF8E574D"]
+			icon: {
+				Count: 1b
+				id: "whisperwoods:hirschgeist_skull"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "629BDF694575DE6E"
+			tasks: [{
+				entity: "whisperwoods:hirschgeist"
+				icon: {
+					Count: 1b
+					id: "whisperwoods:hirschgeist_skull"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5E9536805FFF3B11"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.5d
+			y: -5.5d
+		}
+		{
+			id: "0E781C5FDF8E574D"
+			tasks: [{
+				id: "7826B64527F2CFF0"
+				item: "whisperwoods:hand_of_fate"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.5d
+		}
+	]
+	title: "Sprint: Public Relations"
+}

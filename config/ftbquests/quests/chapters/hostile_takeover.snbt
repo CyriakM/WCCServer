@@ -1,0 +1,270 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "hostile_takeover"
+	group: ""
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:enchanted_golden_apple"
+	id: "733B247B41185C84"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: [
+				"Growing up, people always told you to do what you love. When a job opened up in White Collar Crafting's minecraft division, you jumped on it immediately! You love minecraft! What could be better?"
+				""
+				"Now you are here, and have been at it for almost a year now. You do not feel great about going to work every day. Maybe achieving employee of the month will do something for you?"
+			]
+			icon: {
+				Count: 1b
+				id: "trophymanager:trophy"
+				tag: {
+					Name: "WCC Employee of the Month"
+					TrophyItem: {
+						Count: 1.0d
+						id: "minecraft:crafting_table"
+					}
+					TrophyType: "item"
+				}
+			}
+			id: "75E4F8445ABA654F"
+			rewards: [{
+				id: "47D962F9813E236C"
+				item: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						Name: "WCC Employee of the Month"
+						TrophyItem: {
+							Count: 1.0d
+							id: "minecraft:crafting_table"
+						}
+						TrophyType: "item"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "41F81C7C9E312B3C"
+				item: {
+					Count: 1b
+					id: "whisperwoods:moth_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Epic\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Employee of the Month"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6816DCB9D26F3844"]
+			description: ["You should go for employee of the year. It might help. &7&oYou know it wont.&r"]
+			hide: false
+			icon: {
+				Count: 1b
+				id: "trophymanager:trophy"
+				tag: {
+					Name: "WCC Golden Hoe of the Year"
+					OffsetY: 0.8d
+					Scale: 1.33d
+					TrophyItem: {
+						Count: 1.0d
+						id: "minecraft:golden_hoe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:mending"
+							}]
+						}
+					}
+					TrophyType: "item"
+				}
+			}
+			id: "7D2540E9119ED169"
+			rewards: [{
+				id: "6AEFCAAB0C154EDF"
+				item: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						Name: "WCC Golden Hoe of the Year"
+						OffsetY: 0.8d
+						Scale: 1.33d
+						TrophyItem: {
+							Count: 1.0d
+							id: "minecraft:golden_hoe"
+							tag: {
+								Damage: 0
+								Enchantments: [{
+									id: "minecraft:mending"
+								}]
+							}
+						}
+						TrophyType: "item"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "You are my favorite corporate hoe <3"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "7F68AE6EE317AE2C"
+				item: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						Name: "WCC Employee of the Month"
+						TrophyItem: {
+							Count: 1.0d
+							id: "minecraft:crafting_table"
+						}
+						TrophyType: "item"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Employee of the Year"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6816DCB9D26F3844"]
+			description: [
+				"Dear [Employee's Name],"
+				""
+				"I am delighted to extend my heartfelt congratulations to you for earning the prestigious title of \"Employee of the Month\" at White Collar Crafting. Your outstanding dedication, hard work, and exceptional contributions have not only set you apart but have also served as an inspiration to your colleagues."
+				""
+				"Once again, congratulations on this well-deserved recognition. Your continued efforts and positive attitude exemplify the White Collar Crafting spirit, and we look forward to your continued success in the days to come."
+				""
+				"Thank you for your dedication and hard work."
+				""
+				"Best Regards,"
+				""
+				"Maya Buttreeks"
+				"HR Bonus Coordinator"
+				"White Collar Crafting"
+			]
+			hide: true
+			hide_details_until_startable: true
+			hide_text_until_complete: false
+			id: "4F42514EDB1EF2D6"
+			subtitle: "From:MayaButtreeks@WCC.comgov"
+			tasks: [{
+				id: "0F607EC33C33BA5C"
+				title: "Congratulations on Being Named Employee of the Month!"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6816DCB9D26F3844"]
+			dependency_requirement: "one_started"
+			description: [
+				"A flurry of congratulatory emails flood your inbox. Employee of the month! You worked hard for this. It should feel good. Why doesn’t it feel good? "
+				""
+				"Of course you can not talk to anyone about this, you would sound too ungrateful. Not that you have anyone to talk to. Berlin and <y> are nice, but they are just co-workers. You could not see yourself opening up to them. "
+				""
+				"All your friends from college have been scattered across the country, busy with their own lives. You used to talk often, and even visited them a few times on a flight paid for with the fruits of your labor. But the contacts and reach outs have become few and far between these days."
+			]
+			hide_details_until_startable: true
+			id: "588E51A94FD63079"
+			subtitle: "Why do i feel this way"
+			tasks: [{
+				id: "198F7F4DB5BA6747"
+				title: "What is this?"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			description: ["Completing an entire Epic is an acomplishment of it's own right!"]
+			icon: "whisperwoods:moth_spawn_egg"
+			id: "443AB74A195CE0B0"
+			rewards: [{
+				id: "379D83F14277E96E"
+				item: {
+					Count: 1b
+					id: "whisperwoods:moth_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Epic\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "57B1F0DEF7CF0546"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Epic"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7D2540E9119ED169"]
+			description: [
+				"Another flood of emails. This time you even got one from the CEO. You did it. And yet, you know there will be an employee of the year if you weren’t here. You know this place does not need you. "
+				""
+				"You liken yourself to a side character in a television show. Everyone knows you, but no one shows up for you. You get invited to the company sponsored potlucks, but never the beach trips or halloween parties you overhear people talk about in the breakroom. How come other people can connect, but you can’t? "
+				""
+				"That is not to mention your friends. It has been too long to even consider reaching out at this point. "
+				""
+				"Maybe you should invite Berlin and <y> for dinner after work."
+			]
+			id: "01426223C1B5BFFE"
+			subtitle: "The shinest cog"
+			tasks: [{
+				id: "17EA8FD1C0C5A36D"
+				title: "hm"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "6816DCB9D26F3844"
+			tasks: [{
+				id: "1CAE1FE45C047625"
+				item: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						Name: "WCC Employee of the Month"
+						TrophyItem: {
+							Count: 1.0d
+							id: "minecraft:crafting_table"
+						}
+						TrophyType: "item"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+	]
+	title: "Employee of the Month"
+}
