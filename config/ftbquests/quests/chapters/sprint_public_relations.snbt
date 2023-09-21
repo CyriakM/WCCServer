@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "octagon"
 	filename: "sprint_public_relations"
 	group: ""
 	icon: "minecraft:zombie_head"
@@ -50,7 +50,7 @@
 				id: "2002FD785584DCDE"
 				observe_type: 0
 				timer: 0L
-				title: "you will know it when you see it"
+				title: "you will hear it before you see it."
 				to_observe: "cavedweller:cavedweller"
 				type: "observation"
 			}]
@@ -63,6 +63,20 @@
 			dependencies: ["7552F7FC66FD06B0"]
 			hide: true
 			id: "16E63369D92C6BB5"
+			rewards: [{
+				count: 4
+				id: "207F0D9C5C757473"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "cave_dweller:cave_dweller"
 				icon: {
@@ -83,6 +97,20 @@
 			can_repeat: true
 			icon: "minecraft:zombie_head"
 			id: "1BF337AA4C4D60B0"
+			rewards: [{
+				count: 12
+				id: "41B28C9D95D161DF"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:zombie"
 				id: "6F9395BDC7EE8057"
@@ -96,6 +124,20 @@
 			can_repeat: true
 			icon: "minecraft:creeper_head"
 			id: "33D38965CE3C1D94"
+			rewards: [{
+				count: 12
+				id: "672B3C5A8AD25D07"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:creeper"
 				id: "6557864B930D2E37"
@@ -108,6 +150,20 @@
 		{
 			can_repeat: true
 			id: "6EF40630A86B7038"
+			rewards: [{
+				count: 16
+				id: "5A13A952D175FD5A"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "botania:doppleganger"
 				icon: "botania:gaia_head"
@@ -122,6 +178,20 @@
 			can_repeat: true
 			icon: "architects_palette:ender_pearl_block"
 			id: "2A4C3FF19EEC683F"
+			rewards: [{
+				count: 12
+				id: "3961704384C5CD17"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:enderman"
 				id: "34893C77F522CFAA"
@@ -135,6 +205,20 @@
 			can_repeat: true
 			icon: "minecraft:spider_eye"
 			id: "7FD82DFDFC97A7D9"
+			rewards: [{
+				count: 12
+				id: "24E0AC0CC9C6E2E9"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:spider"
 				id: "6B9F647713B85F2A"
@@ -148,6 +232,20 @@
 			can_repeat: true
 			icon: "minecraft:skeleton_skull"
 			id: "0D8EEEFB98F994D5"
+			rewards: [{
+				count: 12
+				id: "5D553DEEA97023F2"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:skeleton"
 				id: "589E7D2FC4491BA6"
@@ -161,6 +259,21 @@
 			can_repeat: true
 			icon: "minecraft:blaze_rod"
 			id: "33A13E3273217387"
+			rewards: [{
+				count: 16
+				id: "5535F4D5AD7E23E2"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				random_bonus: 5
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:blaze"
 				id: "7485E99BEAF3FEF9"
@@ -171,8 +284,21 @@
 			y: -7.0d
 		}
 		{
-			can_repeat: true
 			id: "779B654F7846FCAF"
+			rewards: [{
+				count: 64
+				id: "64D231A420AF4051"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: "architects_palette:withered_osseous_skull"
@@ -184,8 +310,21 @@
 			y: -5.5d
 		}
 		{
-			can_repeat: true
 			id: "1ECAE3E038232FB5"
+			rewards: [{
+				count: 64
+				id: "7A400F267DDD00ED"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
@@ -199,6 +338,20 @@
 		{
 			can_repeat: true
 			id: "43335469D3057B7E"
+			rewards: [{
+				count: 12
+				id: "6ABA647E03102B57"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "whisperwoods:wisp"
 				id: "65CC7A3215BEF6FF"
@@ -211,6 +364,20 @@
 		{
 			can_repeat: true
 			id: "4629B98D26AD5F02"
+			rewards: [{
+				count: 12
+				id: "3938CE66A4439688"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "whisperwoods:zotzpyre"
 				id: "1CBFD51945A14D74"
@@ -221,7 +388,6 @@
 			y: -7.0d
 		}
 		{
-			can_repeat: true
 			dependencies: ["0E781C5FDF8E574D"]
 			icon: {
 				Count: 1b
@@ -231,6 +397,20 @@
 				}
 			}
 			id: "629BDF694575DE6E"
+			rewards: [{
+				count: 64
+				id: "0B1E98C9EEEE4E52"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "whisperwoods:hirschgeist"
 				icon: {

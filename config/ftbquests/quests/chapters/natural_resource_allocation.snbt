@@ -12,7 +12,7 @@
 			description: ["Utilize forestry techniques to gather resources necessary to construct employee shelter structures.  "]
 			id: "6D1A10F0954ADB66"
 			rewards: [{
-				count: 3
+				count: 12
 				id: "27BDE212FF3CFB9C"
 				item: {
 					Count: 1b
@@ -50,6 +50,20 @@
 				"Mike invited you to a Zoom Meeting (3 hours)"
 			]
 			id: "6024CF178F29C77E"
+			rewards: [{
+				count: 12
+				id: "639B1A620B0773FB"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "From:MikeRotch@WCC.comgov"
 			tasks: [{
 				count: 64L
@@ -73,6 +87,20 @@
 				"[Cancel]   Send--->"
 			]
 			id: "6E0CB3D10D8451E3"
+			rewards: [{
+				count: 15
+				id: "71358051FC1B2BA2"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "From: IvanaTinkle@WCC.comgov"
 			tasks: [{
 				id: "7E44E05D38022227"
@@ -84,7 +112,22 @@
 			y: -2.5d
 		}
 		{
+			description: ["Ahh, classic. These are never going to go away. Once you heard someone traded a whole stack for a single cup of coffee. My kingdom for a horse!"]
 			id: "7B85068F7FBA2DA2"
+			rewards: [{
+				count: 20
+				id: "1FDAEC29ED6A6555"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A1B7F86B6773E18"
 				item: "minecraft:diamond"
@@ -94,7 +137,22 @@
 			y: -1.0d
 		}
 		{
+			description: ["I still cant really belive they added something better than diamond. Black is the new blue I suppose."]
 			id: "4E5FFBCDB3B98275"
+			rewards: [{
+				count: 20
+				id: "0D8F9ECF50EAEEAA"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "071823632421457E"
 				item: "minecraft:netherite_ingot"
@@ -106,6 +164,20 @@
 		{
 			description: ["WOW! I cant belive it! when I swim out of the nether lava lakes, I get totally swarmed with babes! You gotta buy one right now, I have the recipie availible for another 2 days!"]
 			id: "3EE8C2BBD569CE24"
+			rewards: [{
+				count: 60
+				id: "2075A8EA8933118B"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "From:diamondhands42@vector.comgov"
 			tasks: [
 				{
@@ -158,27 +230,21 @@
 			y: -1.0d
 		}
 		{
-			id: "6192E2B5DE276267"
-			tasks: [{
-				id: "0B5A5C699FD8D66C"
-				item: "minecraft:wheat"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -3.5d
-		}
-		{
-			id: "627FA139A531F853"
-			tasks: [{
-				id: "39540C48FB6D6036"
-				item: "minecraft:carrot"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -4.5d
-		}
-		{
 			id: "4FEE735E35D92BC1"
+			rewards: [{
+				count: 12
+				id: "16AE6914233CDD45"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0BEA7CB042D99359"
 				item: "minecraft:copper_ingot"
@@ -188,7 +254,25 @@
 			y: 0.5d
 		}
 		{
+			description: [
+				"<&9Berlin&r>: Hey, we haven't met yet!"
+				"<&9Berlin&r>: But we will soon!"
+			]
 			id: "1BAAD156D2A2BC08"
+			rewards: [{
+				count: 12
+				id: "73AB1BDA31BEF47F"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "27C3961C97D67C73"
 				item: "create:zinc_ingot"

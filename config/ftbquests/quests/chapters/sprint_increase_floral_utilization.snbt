@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	filename: "sprint_increase_floral_utilization"
 	group: ""
 	icon: "botania:creative_pool"
@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["145364A7103F1F82"]
 			description: [""]
 			id: "3C19AC832CCE4221"
 			rewards: [{
@@ -183,7 +184,26 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["3C19AC832CCE4221"]
+			description: [
+				"<&eYou&r>: why is this book so... dusty?"
+				"<&dLevi&r>: Good question. They probably pulled them out of some ancient warehouse or somewhere for cheap."
+			]
 			id: "6255C402D9DFF69B"
+			rewards: [{
+				count: 8
+				id: "0164EDF46F8339EE"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F5248D20B7E1FF0"
 				item: "botania:pure_daisy"
@@ -193,7 +213,28 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["3C19AC832CCE4221"]
+			description: [
+				"<&dLevi&r>: This will be the first of your mana creating flowers"
+				"<&dLevi&r>: You can automate it with a pressure plate, some coal, a hopper and an open crate."
+				"<&dLevi&r>: Have the crate drop coal onto the plate, and feed it with a hopper."
+				"<&dLevi&r>: The hopper is connected with redstone to the plate to turn it off."
+			]
 			id: "51F00AF80652C4CF"
+			rewards: [{
+				count: 10
+				id: "63E6907337F2C764"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "75851EBAD5A91588"
 				item: "botania:endoflame"
@@ -203,23 +244,53 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["6255C402D9DFF69B"]
+			description: [
+				"<&dLevi&r>: You know, its hard at first."
+				"<&dLevi&r>: Raising a whole livingwood log."
+				"<&dLevi&r>: But before you know it, they will be off to college, becoming a fine livingwood wand."
+			]
 			id: "65DE9D36D8D3C6F6"
+			rewards: [{
+				count: 16
+				id: "4612ABA26EC7DF90"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
+					count: 8L
 					id: "1D7C4F7EDE1185B4"
 					item: "botania:livingrock"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "6A1E795741DDBCF4"
 					item: "botania:livingwood_log"
 					type: "item"
 				}
 			]
+			title: "Livingthings"
 			x: -2.5d
 			y: -2.5d
 		}
 		{
+			dependencies: ["65DE9D36D8D3C6F6"]
+			description: [
+				"<&dLevi&r>: Use these to place blocks down automatically."
+				"<&dLevi&r>: I conscripted Berlin to make this monster contraption to place and mine the wood."
+				"<&dLevi&r>: Then I found this, and didnt want to tell her it ruined the whole thing she just finished making"
+				"<&dLevi&r>: But you can use it at least!"
+			]
 			id: "6A3AAD8F31C5BFA8"
 			tasks: [{
 				id: "5E539BB7B1377812"
@@ -230,7 +301,22 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["31F01D72BD2B6CB2"]
 			id: "6D979AB58A73693A"
+			rewards: [{
+				count: 10
+				id: "605FE6ADD17B0A08"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6EA99901D419F67F"
 				item: "botania:manasteel_ingot"
@@ -240,7 +326,22 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["6D979AB58A73693A"]
 			id: "5E567246B8D6496E"
+			rewards: [{
+				count: 20
+				id: "391373FA23E41D93"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0519009D32E2E37C"
@@ -291,7 +392,26 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["31F01D72BD2B6CB2"]
+			description: [
+				"<&dLevi&r>: You have to build the plate on a special floor, double check the book for the correct structure."
+				"<&dLevi&r>: It is picky :)"
+			]
 			id: "093E4C5241A56AA7"
+			rewards: [{
+				count: 20
+				id: "6292C44B05A2141A"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "115316012F90F36E"
 				item: "botania:terra_plate"
@@ -301,7 +421,27 @@
 			y: -5.5d
 		}
 		{
+			dependencies: ["093E4C5241A56AA7"]
+			description: [
+				"<&dLevi&r>: Congrats! This is about the best materal in the game."
+				"<&dLevi&r>: Armor, swords, pickaxes, trinkets. Pretty much anything you make with this will be good."
+				"<&dLevi&r>: But your first ingot should go towards an elven portal"
+			]
 			id: "3969369E9A7296D8"
+			rewards: [{
+				count: 30
+				id: "03A2227A9C87965F"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "77EAA28ECD1F65C2"
 				item: "botania:terrasteel_ingot"
@@ -311,7 +451,22 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["65DE9D36D8D3C6F6"]
 			id: "31F01D72BD2B6CB2"
+			rewards: [{
+				count: 20
+				id: "05522CA5F5839C34"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "45DF2A41A2B4953F"
 				item: "botania:mana_pool"
@@ -321,7 +476,26 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["31F01D72BD2B6CB2"]
+			description: [
+				"<&dLevi&r>: This is pretty much a straight upgrade on potions."
+				"<&dLevi&r>: Grab it if you want. They are nice to have"
+			]
 			id: "22A7FF15F34056DC"
+			rewards: [{
+				count: 10
+				id: "431C31D79004F370"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "565B15A25F11CDD4"
 				item: "botania:brewery"
@@ -331,7 +505,27 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["31F01D72BD2B6CB2"]
+			description: [
+				"<&dLevi&r>: Runecrafting is not a favorite past time of mine."
+				"<&dLevi&r>: I would make like 16 of all the basic ones at once, you probably wont need more than that."
+				"<&dLevi&r>: Even so, you can buy some materals for making more in the employee store."
+			]
 			id: "74E5212E325E5D66"
+			rewards: [{
+				count: 10
+				id: "6952078B19728E2A"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4862DE4496ED9F26"
 				item: "botania:runic_altar"
@@ -341,38 +535,112 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["76AD12C05599B9DD"]
+			description: [
+				"<&dLevi&r>: I would go and ask Berlin about making automated TNT, but if you can do it you will have loads of mana!"
+				"<&dLevi&r>: Just build a blast chamber... To be safe. "
+				"<&dLevi&r>: I have had incidents with these unloading and blowing up my chests"
+			]
 			id: "41DAC3872AB38DC2"
+			rewards: [{
+				count: 20
+				id: "7DE6FD674AB4425D"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "345CB8EBA48CFCB5"
 				item: "botania:entropinnyum"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.0d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
-			description: ["Finally, someone who will eat the last piece of cake in the break room!"]
+			dependencies: ["76AD12C05599B9DD"]
+			description: [
+				"<&dLevi&r>: Finally, someone who will eat the last piece of cake in the break room!"
+				"<&eYou&r>: woooooow i was totally gonna eat that crusty cake slice"
+			]
 			id: "76E2F95B5BDF8BA5"
+			rewards: [{
+				count: 30
+				id: "2FCF39CE79D2B809"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4475E3AA981634DD"
 				item: "botania:kekimurus"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.0d
+			x: -4.5d
+			y: 4.0d
 		}
 		{
+			dependencies: ["76AD12C05599B9DD"]
+			description: ["<&dLevi&r>: Its based on the game of life! How cool!"]
 			id: "2F32ACBB095DEEE6"
+			rewards: [{
+				count: 30
+				id: "78B76D83BF76EEE1"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5817873F71C9D0AE"
 				item: "botania:dandelifeon"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: -2.5d
+			y: 4.0d
 		}
 		{
+			dependencies: ["3969369E9A7296D8"]
+			description: [
+				"<&dLevi&r>: These guys are pretty goofy"
+				"<&dLevi&r>: Just throw your book in the portal, and they will update it."
+				"<&dLevi&r>: Dont thow anything in the portal you like, they will keep it if it is not a valid trade."
+			]
 			id: "75FC5E3F9787F174"
+			rewards: [{
+				count: 30
+				id: "3554BF6703FC31A7"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5F93E7DC1835305A"
@@ -389,17 +657,50 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["76AD12C05599B9DD"]
 			id: "3A2C0D338C278C2F"
+			rewards: [{
+				count: 20
+				id: "6C9E2F15B6EB5528"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6B7CF5C1E881D3CC"
 				item: "botania:munchdew"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.0d
+			x: -4.5d
+			y: 2.0d
 		}
 		{
+			description: [
+				"<&dLevi&r>: This lets you make a stylish path where ever you are looking"
+				"<&dLevi&r>: It goes away after like 30 seconds, so dont use it for anything long term.&o"
+			]
 			id: "7BBE2D8A17FE3CF3"
+			rewards: [{
+				count: 30
+				id: "52F63729D6499D3A"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "768B06512CE0586D"
 				item: "botania:rainbow_rod"
@@ -409,7 +710,16 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["5143E60DCD7EE9C9"]
+			description: [
+				"Hey,"
+				"I heard you are starting out with Botania, and could use a bit of guidance. My name is Levi. I set up the mana network you probably used before they sent you out into the wilderness. Anyway, if you have any questions, let me know and I can give you a hand."
+				""
+				""
+				"Levi"
+			]
 			id: "145364A7103F1F82"
+			subtitle: "From:LeviD@WCC.comgov"
 			tasks: [{
 				id: "262F7AFE21646E85"
 				title: "Botania SME Contact"
@@ -417,6 +727,117 @@
 			}]
 			x: -6.5d
 			y: -3.0d
+		}
+		{
+			description: ["<&dLevi&r>: These are not your only option, but they are my favorite ones :)"]
+			id: "76AD12C05599B9DD"
+			tasks: [{
+				id: "4B027DE689451315"
+				title: "mana generation"
+				type: "checkmark"
+			}]
+			title: "mana generation"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"<&dLevi&r>: For now, sparks are used to give mana to the terrasteel plate"
+				"<&dLevi&r>: Put one over the pool, and one over the completed plate."
+			]
+			id: "6758D33E82CF959A"
+			tasks: [{
+				id: "6341972767DECF4A"
+				item: "botania:spark"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"<&dLevi&r>: If you only make one item, make this one"
+				"<&dLevi&r>: It lets you switch out blocks that are already placed"
+				"<&dLevi&r>: Realize you hate birch wood? Have it target dark oak and replace your whole house in a snap!"
+			]
+			id: "6DA47CFAFBFED5A7"
+			rewards: [{
+				count: 30
+				id: "2B7613814BC161C0"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D525441887C9944"
+				item: "botania:exchange_rod"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"<&dLevi&r>: I am an impatient person"
+				"<&dLevi&r>: This lets me walk fast, it helps."
+			]
+			id: "2373987D051C8352"
+			rewards: [{
+				count: 20
+				id: "0F18E13A45FA9BEB"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C2B6F1A5F125282"
+				item: "botania:travel_belt"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"<&dLevi&r>: Cute!"
+				"<&dLevi&r>: And stops the rain. I kinda like the rain though, so its a trade off for me."
+			]
+			id: "4E6073B139DA3757"
+			rewards: [{
+				count: 20
+				id: "663FAA6FEBEFCA46"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BF2596BDCB206AB"
+				item: "botania:teru_teru_bozu"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
 		}
 	]
 	title: "Sprint: Increase Floral Utilization "

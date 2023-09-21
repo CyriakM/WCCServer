@@ -10,8 +10,23 @@
 	quests: [
 		{
 			can_repeat: true
+			dependencies: ["726FFBC41DD6CEBC"]
 			description: ["am i doing this right? my kid wont fall asleep unless i play her some music. get me some discs please."]
 			id: "0710A4F27E536C6A"
+			rewards: [{
+				count: 20
+				id: "3A80BF9E634CF3F9"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "As a user, i wanna get my kid to sleep"
 			tasks: [{
 				consume_items: true
@@ -33,8 +48,23 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["726FFBC41DD6CEBC"]
 			description: ["I need TNT for something. Please provide ASAP."]
 			id: "06D8C3EBEE2F7ABA"
+			rewards: [{
+				count: 20
+				id: "492CCDAD712C82D0"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "As a user, I need TNT to accomplish my goals"
 			tasks: [{
 				consume_items: true
@@ -49,8 +79,23 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["726FFBC41DD6CEBC"]
 			description: ["Its my kids birthday and he wants the cake from minecraft. I figured no better people to call right? "]
 			id: "62CA87969EAA40A5"
+			rewards: [{
+				count: 20
+				id: "28DFCBD67B07BB0A"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -64,8 +109,23 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["726FFBC41DD6CEBC"]
 			description: ["complete story 3/25"]
 			id: "6662CB122756E375"
+			rewards: [{
+				count: 20
+				id: "5EBABEBBAD914C98"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "As a User, I need tea to increase my building potental"
 			tasks: [{
 				consume_items: true
@@ -80,8 +140,26 @@
 		}
 		{
 			can_repeat: true
-			description: ["hi i need these for making clocks. my last guy who made these things shop blew up..."]
+			dependencies: ["06D8C3EBEE2F7ABA"]
+			description: [
+				"hi i need these for making clocks. my last guy who made these things shop blew up..."
+				"you wouldnt happen to know anything about that?"
+			]
 			id: "30464B214C952002"
+			rewards: [{
+				count: 20
+				id: "367706CDE2EEC539"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -94,8 +172,23 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["726FFBC41DD6CEBC"]
 			description: ["brooo i am soo hungry please i NEED this cinnabun "]
 			id: "477961D9CABF8857"
+			rewards: [{
+				count: 20
+				id: "44C62D67DE94D74A"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 64L
@@ -109,7 +202,22 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["726FFBC41DD6CEBC"]
 			id: "5D4EA69868D20BE6"
+			rewards: [{
+				count: 20
+				id: "51D5FFF49A43566D"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 48L
@@ -122,8 +230,23 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["726FFBC41DD6CEBC"]
 			description: ["My upstairs neighbor will not SHUT UP!!!!! lets see how he likes it when I push his floor up 1 meter."]
 			id: "14A32AC6A40D4D66"
+			rewards: [{
+				count: 20
+				id: "34EE0423FD6A72BA"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 32L

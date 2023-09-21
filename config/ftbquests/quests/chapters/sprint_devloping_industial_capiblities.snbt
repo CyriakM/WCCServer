@@ -3,6 +3,8 @@
 	default_quest_shape: ""
 	filename: "sprint_devloping_industial_capiblities"
 	group: ""
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1b
 		id: "create:extendo_grip"
@@ -15,8 +17,23 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["53390258A7587154"]
 			description: ["<&9Berlin&r>: cogs move force in two directions, and also reverse the rotation along one direction."]
 			id: "49CC34472739626C"
+			rewards: [{
+				count: 5
+				id: "25BA7515095E2932"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 16L
 				id: "75CFEB037B04C78B"
@@ -28,7 +45,22 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["18C0F16F24580136"]
 			id: "21A92F79123CF944"
+			rewards: [{
+				count: 10
+				id: "0259D1C8D1D29D67"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 2L
 				id: "55975A79AEA90F4A"
@@ -39,7 +71,22 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["18C0F16F24580136"]
 			id: "664B9BAB1AD68F30"
+			rewards: [{
+				count: 10
+				id: "534DA459D2C11E91"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D509A726047D0EC"
 				item: "create:mechanical_mixer"
@@ -50,7 +97,22 @@
 		}
 		{
 			dependencies: ["53390258A7587154"]
+			description: [""]
 			id: "5584593AE0D766CB"
+			rewards: [{
+				count: 5
+				id: "643EC21C6FBC712C"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7CB6B2E5B30E3EAC"
 				item: "create:wrench"
@@ -60,7 +122,22 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["18C0F16F24580136"]
 			id: "67BC4FF4BAEF59AD"
+			rewards: [{
+				count: 10
+				id: "1360DF2B76A9F399"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "23377AE022D47BB8"
 				item: "create:goggles"
@@ -70,11 +147,26 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["18C0F16F24580136"]
 			description: [
 				"<&9Berlin&r>:ok these things are really nice"
 				"<&9Berlin&r>:you can pretty mcuh throw away your furnace after making these fans"
 			]
 			id: "062FB5B6959DD3B8"
+			rewards: [{
+				count: 10
+				id: "395B43B7FDBA7CD3"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 3L
@@ -93,7 +185,22 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["18C0F16F24580136"]
 			id: "202A09904F2593EF"
+			rewards: [{
+				count: 10
+				id: "50CBFE99E9F45A4B"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 2L
 				id: "614195120F3A8175"
@@ -104,7 +211,22 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["18C0F16F24580136"]
 			id: "4A09CEF384BB53DC"
+			rewards: [{
+				count: 10
+				id: "4A085265E13820B0"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 3L
 				id: "3C3B310C24FB2659"
@@ -115,6 +237,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["18C0F16F24580136"]
 			description: [
 				"<&9Berlin&r>:ok so make something like this:"
 				""
@@ -128,8 +251,23 @@
 				"<&eYou&r>: i didnt even know u could embed things like that in chat"
 				"<&9Berlin&r>: pretty cool right?"
 				"<&9Berlin&r>: just build all the fans right next to eachother, and put the campfire in the middle so the lava and water dont touch"
+				"<&9Berlin&r>: make them all spin in the same direction with the encased chain drive"
 			]
 			id: "16C39B5B9DEE0B62"
+			rewards: [{
+				count: 10
+				id: "0568E2573D4BFD06"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4138C518CC1164FF"
@@ -151,7 +289,22 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["18C0F16F24580136"]
 			id: "6094459505A6DBEC"
+			rewards: [{
+				count: 10
+				id: "44292DBEB0E8C029"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "789714C0523747BE"
 				item: "create:millstone"
@@ -161,41 +314,106 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["2063D1169BCADD61"]
 			id: "48B7AF27B3C3664A"
+			rewards: [{
+				count: 15
+				id: "0EA1555BF1F2322E"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "08A4AB4FBAA818C9"
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
 			x: 8.5d
-			y: -0.5d
+			y: 4.5d
 		}
 		{
+			dependencies: ["2063D1169BCADD61"]
+			description: [
+				"<&9Berlin&r>: you will probably get 400 training emails once you make these things"
+				"<&9Berlin&r>: seriously they are dangerous"
+				"<&9Berlin&r>: if my favorite coworker got pulped i would be upset"
+			]
 			id: "79FA888AF9D57D36"
+			rewards: [{
+				count: 15
+				id: "78BE0735AD804C74"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4606B23CCE8A15AA"
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.5d
+			x: 7.5d
+			y: 5.5d
 		}
 		{
+			dependencies: ["2063D1169BCADD61"]
 			id: "290068530B01A941"
+			rewards: [{
+				count: 15
+				id: "501DDF9BE08FEADB"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D4BA021F816B530"
 				item: "create:rope_pulley"
 				type: "item"
 			}]
 			x: 8.5d
-			y: 0.5d
+			y: 5.5d
 		}
 		{
+			dependencies: ["53390258A7587154"]
 			description: [
 				"<&9Berlin&r>: these guys can be used to speed up the rotation rate of whatever you are making."
 				"<&9Berlin&r>: give them a ponder!"
 			]
 			id: "7EB627F2088A42C4"
+			rewards: [{
+				count: 5
+				id: "41821B2FA4B222D5"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 4L
 				id: "7F1972602F0DF2BD"
@@ -207,37 +425,79 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["2063D1169BCADD61"]
 			id: "07CD29C4768DF9E0"
+			rewards: [{
+				count: 15
+				id: "17A7F974A6FECE6A"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6136988B4ECAAD16"
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -0.5d
+			x: 7.5d
+			y: 4.5d
 		}
 		{
-			id: "392D35004673CA3F"
-			tasks: [{
-				id: "7E3F2BEC4F95DE9A"
-				item: "create:mechanical_roller"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 1.5d
-		}
-		{
+			dependencies: ["7EE0FF9826F1A886"]
 			id: "245050D1AB140B13"
-			tasks: [{
-				id: "0EEE70AD591ACC0D"
-				item: "create:fluid_pipe"
+			rewards: [{
+				count: 6
+				id: "48964B260358003F"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
 				type: "item"
 			}]
+			tasks: [
+				{
+					id: "0EEE70AD591ACC0D"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "79C75D675E1612DE"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 2.5d
 		}
 		{
+			dependencies: ["7EE0FF9826F1A886"]
 			id: "4C13C504F0E11174"
+			rewards: [{
+				count: 6
+				id: "25E00AFEA9A37C6E"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7AAF463C509842B2"
 				item: "create:fluid_tank"
@@ -247,7 +507,22 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["7EE0FF9826F1A886"]
 			id: "40329B521958E373"
+			rewards: [{
+				count: 6
+				id: "77BB299F7E4640BB"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6006A32DBF04AE4E"
 				item: "create:item_drain"
@@ -257,27 +532,47 @@
 			y: 4.0d
 		}
 		{
-			id: "4B17429847CAA9F7"
-			tasks: [{
-				id: "74587E70DDD16402"
-				item: "create:mechanical_pump"
+			dependencies: ["2063D1169BCADD61"]
+			id: "17B15D070B8A8D2E"
+			rewards: [{
+				count: 15
+				id: "47C9131FC6D0F7CE"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: 2.5d
-		}
-		{
-			id: "17B15D070B8A8D2E"
 			tasks: [{
 				id: "520972BEF574820C"
 				item: "create:elevator_pulley"
 				type: "item"
 			}]
 			x: 8.5d
-			y: 1.5d
+			y: 6.5d
 		}
 		{
+			dependencies: ["18C0F16F24580136"]
 			id: "3785D224E5B9F9AB"
+			rewards: [{
+				count: 10
+				id: "659522850E9566F8"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6751FB7D104F235F"
 				item: "create:blaze_burner"
@@ -301,6 +596,19 @@
 				"Thanks for reaching out! I appreciate it. I will let you know once I have some material ready for my first project."
 			]
 			id: "08BA59CD3EC47CC8"
+			rewards: [{
+				id: "57F6D3BCFE0C81DE"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "from:BerlinWall@WCC.comgov"
 			tasks: [{
 				id: "6E7DF9BC335C989D"
@@ -318,10 +626,11 @@
 				title: "the fun stuff"
 				type: "checkmark"
 			}]
-			x: 7.5d
-			y: -2.0d
+			x: 8.0d
+			y: 3.5d
 		}
 		{
+			dependencies: ["08BA59CD3EC47CC8"]
 			description: [
 				"<&eYou&r>: hey berlin"
 				"<&eYou&r>: i have some wood, some andesite and some zinc, what should i do next?"
@@ -330,6 +639,19 @@
 				"<&9Berlin&r>: also dont forget to ponder things. seriously its so cool i end up not even realizing they ended lol"
 			]
 			id: "53390258A7587154"
+			rewards: [{
+				id: "2915ED6FA47A2CB6"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "60CD2F711704D57E"
 				title: "first things to make"
@@ -357,8 +679,23 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["53390258A7587154"]
 			description: ["<&9Berlin&r>: just put this with a one block space below it, and throw some gold under it. boom, plates"]
 			id: "57A1CEE41B096B55"
+			rewards: [{
+				count: 5
+				id: "401E27CB1A56369D"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E1549C2569808ED"
 				item: "create:mechanical_press"
@@ -368,8 +705,23 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["53390258A7587154"]
 			description: ["<&9Berlin&r>: this is the smaller and cheaper way to make force. it should be enough for your crusher."]
 			id: "668B175D3BCE0E04"
+			rewards: [{
+				count: 5
+				id: "3AA9DC9208A9D3D6"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6AE89BD94704F679"
 				item: "create:water_wheel"
@@ -381,12 +733,25 @@
 		{
 			dependencies: ["5584593AE0D766CB"]
 			description: [
-				"hey, how do you have 6 years of create experience? Didnt that mod only come out 4 years ago?"
+				"<&eYou&r>: hey, how do you have 6 years of create experience? Didnt that mod only come out 4 years ago?"
 				""
 				"<&9Berlin&r>: ahh yea. that is true. i joined here around the same time, and really liked it. no one else really knew anything about it and i had a knack from my mech eng background. anyway i got pidgeonholed pretty hard and ended up having to work 60 hour weeks just to keep up with all the demands of me."
-				"<&9Berlin&r>: so yeah, six years of experience in 4 years :)"
+				"<&9Berlin&r>: so yeah, six years of experience in four years :)"
 			]
 			id: "0A81E963B37C9627"
+			rewards: [{
+				id: "479CD97929DD864F"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A8B96DB32859398"
 				title: "Chat Log: 6 years?"
@@ -396,7 +761,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["18C0F16F24580136"]
+			dependencies: ["3785D224E5B9F9AB"]
 			description: [
 				"60 hour weeks for four years sounds really tough. i'm surprised you managed."
 				""
@@ -408,22 +773,45 @@
 				title: "Chat Log: burnout"
 				type: "checkmark"
 			}]
-			x: 6.0d
-			y: -4.0d
+			x: 5.5d
+			y: 1.0d
 		}
 		{
+			dependencies: ["29372E004906ED1E"]
+			description: [
+				"<&eYou&r>: how you i make those huge moving machines I always see in youtube videos?"
+				"<&9Berlin&r>: ahhhh"
+				"<&9Berlin&r>: the fun part"
+				"<&9Berlin&r>: contraptions"
+				"<&9Berlin&r>: moving blocks, harvesting automatically"
+			]
 			id: "04EA6FCB980A6774"
 			tasks: [{
 				id: "0F2F0D82522115B4"
 				title: "contraptions"
 				type: "checkmark"
 			}]
-			x: 11.0d
-			y: -2.0d
+			x: 9.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["53390258A7587154"]
 			description: ["<&9Berlin&r>: shafts move force in one direction."]
 			id: "51B917C00EAF9247"
+			rewards: [{
+				count: 5
+				id: "6AC98889105A3782"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 16L
 				id: "20A1D6FC932A52F7"
@@ -432,6 +820,501 @@
 			}]
 			x: -1.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["2063D1169BCADD61"]
+			id: "6552EB1ACE8D1B11"
+			rewards: [{
+				count: 15
+				id: "3FECCB78A266E554"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A6F1C383C43DA09"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["04EA6FCB980A6774"]
+			id: "702CE0C24C61B7B7"
+			rewards: [{
+				count: 15
+				id: "4C079C4735B4CC43"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5093648B7AE23216"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04EA6FCB980A6774"]
+			id: "43673E888850B200"
+			rewards: [{
+				count: 15
+				id: "16F1B86966D982DE"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "391EA4EFC4B48B2C"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04EA6FCB980A6774"]
+			id: "0F8BFE0065CD25C6"
+			rewards: [{
+				count: 15
+				id: "251F72D3D3060D1D"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "13514038ED511B6A"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04EA6FCB980A6774"]
+			id: "41CF0B6D4E2312A8"
+			rewards: [{
+				count: 15
+				id: "500849A86FCCF90E"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "49E0676015C06058"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A81E963B37C9627"]
+			description: [
+				"<&9Berlin&r>: these guys are prob the most important parts of the mod"
+				"<&9Berlin&r>: they move items from A to B"
+				"<&9Berlin&r>: they all need seaweed for some reason"
+				"<&9Berlin&r>: so make a farm"
+			]
+			id: "5429A916D5D7B373"
+			tasks: [{
+				id: "3A7DA8EF103E43E0"
+				title: "Logistics"
+				type: "checkmark"
+			}]
+			title: "logistics"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2063D1169BCADD61"]
+			description: [
+				"<&9Berlin&r>: i like to decorate my cube with these"
+				"<&9Berlin&r>: you can use a name tag to change what they say"
+			]
+			id: "51EA9972442336BC"
+			rewards: [
+				{
+					id: "49392E0B59A7E882"
+					item: {
+						Count: 1b
+						id: "minecraft:name_tag"
+						tag: {
+							display: {
+								Name: "{\"text\":\"catboy\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 15
+					id: "33354E44A7B5F4AD"
+					item: {
+						Count: 1b
+						id: "hexerei:crow_spawn_egg"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Story Point\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A73D43736D74977"
+				item: "create:nixie_tube"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2063D1169BCADD61"]
+			id: "0EC77081C4AE4FDB"
+			rewards: [{
+				count: 15
+				id: "2D7DB0B9BC59E04B"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04EB1FF652159094"
+				item: "create:display_board"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5429A916D5D7B373"]
+			id: "4D570CD76F5633C6"
+			rewards: [{
+				count: 6
+				id: "0D4D8168F7ED9638"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "170DE7FBA8898B10"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5429A916D5D7B373"]
+			id: "33E508A5BC5EFEC4"
+			rewards: [{
+				count: 6
+				id: "2AF0601AF4943156"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D95AFB5EF735765"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5429A916D5D7B373"]
+			id: "4C4F3B15A6B1C93B"
+			rewards: [{
+				count: 6
+				id: "5B701E909881F670"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DDE0F37EB373770"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5429A916D5D7B373"]
+			id: "4264E8F30B59F339"
+			rewards: [{
+				count: 6
+				id: "7E261D35AD379F87"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "555015C1270B2AD2"
+				item: "create:andesite_tunnel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5429A916D5D7B373"]
+			id: "2F6077B7AFC5941D"
+			rewards: [{
+				count: 6
+				id: "1D7AAFD569DDA733"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DCFD520ADE2002F"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["79FA888AF9D57D36"]
+			description: [
+				"Hello <EMPLOYEE>,"
+				"In order to maintain our compliance with state and local laws, you must complete training modules: Industrial Equipment; Crushing Wheels. "
+				""
+				"Completing these training modules helps us to keep you safe and reduce workers compensation claims."
+				""
+				""
+				"This is an automated email, this inbox is not monitored."
+			]
+			id: "1ECFFA3671B2E789"
+			subtitle: "From:noreply@wcc.comgov"
+			tasks: [{
+				id: "794D2CD693915BA7"
+				title: "Overdue training notice: 214 days"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1ECFFA3671B2E789"]
+			description: [
+				""
+				"-Do not attempt to service the crushing wheels while they are in motion."
+				"-Do not allow children to play around crushing wheels."
+				"-Do not jump into the crushing wheels."
+				"-Always keep an ender pearl on your person at all times if working around crushing wheels. "
+			]
+			id: "5DD9BC181F9AC587"
+			subtitle: "Training Module"
+			tasks: [{
+				id: "68B21F1E437601A8"
+				title: "training modules: Industrial Equipment; Crushing Wheels"
+				type: "checkmark"
+			}]
+			title: "Industrial Equipment; Crushing Wheels"
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7EE0FF9826F1A886"]
+			id: "7A167796D0A4E15D"
+			rewards: [{
+				count: 6
+				id: "0DF5989766C35A87"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CC23B8A7A91A775"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0A81E963B37C9627"]
+			description: [
+				"<&9Berlin&r>: move around some fluids! "
+				"<&9Berlin&r>: drain that stupid lava lake in your grand cave base! "
+				"<&9Berlin&r>: make a giant vat of milk! idk"
+				"<&eYou&r>: not sure about that one lol"
+			]
+			id: "7EE0FF9826F1A886"
+			tasks: [{
+				id: "09CD767785D3C671"
+				title: "fluids"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["04EA6FCB980A6774"]
+			id: "64C57BFFD921E88A"
+			rewards: [{
+				count: 15
+				id: "799088A224DCFF67"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "23CF735EFA3AF2BA"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["04EA6FCB980A6774"]
+			id: "12F38692218D0246"
+			rewards: [{
+				count: 15
+				id: "2A56FF555B1F62DB"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AF4CC973AF443BF"
+				item: "create:mechanical_piston"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["04EA6FCB980A6774"]
+			id: "3652EA1C921D7970"
+			rewards: [{
+				count: 15
+				id: "5EB5DA00772552E0"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "704C767F1000BB68"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
 		}
 	]
 	title: "Sprint: Developing Industrial Capabilities"

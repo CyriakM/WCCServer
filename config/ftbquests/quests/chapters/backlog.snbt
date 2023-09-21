@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			can_repeat: true
 			dependencies: ["7B85068F7FBA2DA2"]
 			description: [""]
 			icon: "minecraft:diamond_block"
@@ -43,8 +44,6 @@
 				""
 				"We are pleased to inform you that your exceptional contributions to White Collar Crafting's Minecraft expedition have not gone unnoticed. In recognition of your dedication and achievements, we have made the employee bonus store available to you. All materials you purchase are yours to craft with as you see fit."
 				""
-				"These awards represent both a token of our appreciation and an opportunity for you to further your in-game endeavors. Whether you choose to forge a mighty sword, craft exquisite armor, or invest it in a grand project, the decision is entirely yours."
-				""
 				"Please refer to document WCC-22 for complete bonus structure terms. Employees should note that any material, engineering discovery, patents or structures created by the employee are property of WCC, LLC. "
 				""
 				"Maya Buttreeks"
@@ -61,6 +60,7 @@
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["6024CF178F29C77E"]
 			icon: "minecraft:iron_block"
 			id: "4B1685AD53384EEC"
@@ -88,6 +88,7 @@
 			y: -1.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["6E0CB3D10D8451E3"]
 			icon: "minecraft:gold_block"
 			id: "4EA38270ADB5A820"
@@ -115,6 +116,7 @@
 			y: -1.0d
 		}
 		{
+			can_repeat: true
 			icon: "minecraft:ender_pearl"
 			id: "70DBC3085C8BCB6E"
 			rewards: [{
@@ -123,6 +125,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "70186F6DFD85A628"
 				item: {
 					Count: 1b
@@ -140,6 +143,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			icon: "minecraft:experience_bottle"
 			id: "1C85A3255C86AA9E"
 			rewards: [{
@@ -149,6 +153,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "406C0B3592309EFE"
 				item: {
 					Count: 1b
@@ -166,6 +171,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			icon: "botania:rune_water"
 			id: "59B6DA350FDC38E3"
 			rewards: [
@@ -192,6 +198,7 @@
 				}
 			]
 			tasks: [{
+				consume_items: true
 				id: "4F07D66B8754BF5A"
 				item: {
 					Count: 1b
@@ -209,6 +216,7 @@
 			y: 1.0d
 		}
 		{
+			can_repeat: true
 			icon: "botania:rune_fire"
 			id: "03651F0C0A510658"
 			rewards: [
@@ -229,6 +237,7 @@
 				}
 			]
 			tasks: [{
+				consume_items: true
 				id: "553C9D4E71B79949"
 				item: {
 					Count: 1b
@@ -246,6 +255,7 @@
 			y: 1.0d
 		}
 		{
+			can_repeat: true
 			icon: "botania:rune_earth"
 			id: "1683BA6D559E0BFC"
 			rewards: [
@@ -266,6 +276,7 @@
 				}
 			]
 			tasks: [{
+				consume_items: true
 				id: "0656DAEEAA7E5173"
 				item: {
 					Count: 1b
@@ -283,6 +294,7 @@
 			y: 1.0d
 		}
 		{
+			can_repeat: true
 			icon: "botania:rune_air"
 			id: "391A32D49F237730"
 			rewards: [
@@ -303,6 +315,7 @@
 				}
 			]
 			tasks: [{
+				consume_items: true
 				count: 3L
 				id: "11EC08F0BC9AB57D"
 				item: {
@@ -321,6 +334,7 @@
 			y: 1.0d
 		}
 		{
+			can_repeat: true
 			icon: "botania:black_lotus"
 			id: "211F6AD2DC3E2E37"
 			rewards: [{
@@ -329,6 +343,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "47AF0B6D53C031B7"
 				item: {
 					Count: 1b
@@ -346,6 +361,7 @@
 			y: 2.0d
 		}
 		{
+			can_repeat: true
 			icon: "create:gearbox"
 			id: "6888D9E8BDF0F51F"
 			rewards: [{
@@ -355,6 +371,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "6E54389AEB2A0F14"
 				item: {
 					Count: 1b
@@ -368,6 +385,102 @@
 				type: "item"
 			}]
 			x: -2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Lost your sheers again?"
+				"dont worry I got you."
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:shears"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3A0B4B8E60586622"
+			rewards: [{
+				id: "7B9C474E5A0D8480"
+				item: {
+					Count: 1b
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "273920A24F268A13"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Shears"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			description: ["Always need one more of these things..."]
+			icon: "create:encased_chain_drive"
+			id: "60260A69E227E047"
+			rewards: [{
+				id: "680034028AEF7C3D"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4BEF24FBC3519A31"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Encased Chain Drive"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			id: "0646D0DD410AC6A3"
+			rewards: [{
+				id: "7B7CA5C05C9AB547"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "72B12620332C82B1"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
 			y: 2.0d
 		}
 	]

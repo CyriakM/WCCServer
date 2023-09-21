@@ -34,6 +34,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6D46C9EC41DE2D03"]
 			description: ["Wow, this daily standup sure is going for a long time. Survive an entire week of daily standups!"]
 			id: "259474F779C24400"
 			rewards: [{
@@ -69,6 +70,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["142B1B79E7D32E33"]
 			description: [
 				"Dear [Player's Name],"
 				""
@@ -97,6 +99,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["142B1B79E7D32E33"]
 			description: [
 				"In the dynamic realm of Minecraft, holding a daily standup is not just a routine, it's a cornerstone of our agile approach. These daily gatherings serve as the compass guiding our team through the intricate maze of tasks and challenges."
 				""
@@ -128,13 +131,14 @@
 				stat: "minecraft:time_since_death"
 				title: "Survive One Day"
 				type: "stat"
-				value: 168000
+				value: 24000
 			}]
 			title: "Daily Standup: One Day"
 			x: 1.0d
 			y: -0.5d
 		}
 		{
+			dependencies: ["679DFA879965EA35"]
 			description: ["A daily standup lasting an entire month is actually on the quicker side around here! Good job!"]
 			id: "297182B473255640"
 			rewards: [{
@@ -170,6 +174,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["259474F779C24400"]
 			description: ["Survive two week of daily standups! Your feet must be getting pretty tired by now."]
 			id: "679DFA879965EA35"
 			rewards: [{
@@ -250,6 +255,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["142B1B79E7D32E33"]
 			description: ["It has come to our attention that some employees are using their story points to create unruly flocks of birds. We would like to remind you of White Collar Crafter's core values, one of which is not to create excessive flocks of birds. Violation of directive WCC-47 can result in a negative performance review."]
 			icon: "hexerei:crow_spawn_egg"
 			id: "7F12EDBBA1B64C93"
@@ -269,6 +275,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["142B1B79E7D32E33"]
 			description: [
 				"In order to better allow our employees to meet our company goals, we have enabled quarters on your minecraft world!"
 				"This exciting new feature allows you to make sure you are on track to supporting our business needs for the year. "
@@ -289,8 +296,28 @@
 				title: "New Quarterly Initiative"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: -1.5d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				" "
+				"We would like to make all employees aware that the darkness in caves and at night has become much more intense than normal."
+				""
+				"This can be mitigated by holding a torch or glowstone in your offhand at all times."
+				""
+				"Stay safe."
+			]
+			id: "2C45933B5DF7BF70"
+			subtitle: "From:MayaButtreeks@WCC.comgov"
+			tasks: [{
+				id: "59A07D6BED9FC7B8"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			title: "New Lighting Behavior Noted "
+			x: 0.0d
+			y: 1.5d
 		}
 	]
 	title: "Sprint: New Employee Training"
