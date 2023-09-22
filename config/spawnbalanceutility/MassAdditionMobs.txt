@@ -10,7 +10,7 @@
 * Parm MinGroup   : a number 1 and less than MaxGroup
 * Parm MaxGroup   : a number higher than MinGroup and usually 5 or less.
 *
-1, A, MONSTER, minecraft:zombie, 20, 1, 4
-2, A, MONSTER, minecraft:spider, 20, 1, 4
-3, A, MONSTER, minecraft:creeper, 20, 1, 4
-4, A, MONSTER, minecraft:skeleton, 20, 1, 4
+1, A, MONSTER, minecraft:zombie, 40, 1, 4
+2, A, MONSTER, minecraft:spider, 40, 1, 4
+3, A, MONSTER, minecraft:creeper, 40, 1, 4
+4, A, MONSTER, minecraft:skeleton, 40, 1, 4
