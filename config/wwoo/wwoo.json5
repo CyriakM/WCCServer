@@ -17,7 +17,7 @@
 	// Whether to only change Vanilla biomes or not (DEFAULT mode only).
 	"onlyVanillaBiomes": false,
 	// Whether to announce important updates even if the above setting is disabled.
-	"showBigUpdates": true,
+	"showBigUpdates": false,
 	// Whether updates should be announced in chat when entering a world
-	"showUpdates": true
+	"showUpdates": false
 }
