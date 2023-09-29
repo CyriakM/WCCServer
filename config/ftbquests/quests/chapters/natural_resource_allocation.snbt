@@ -103,6 +103,7 @@
 			}]
 			subtitle: "From: IvanaTinkle@WCC.comgov"
 			tasks: [{
+				count: 32L
 				id: "7E44E05D38022227"
 				item: "minecraft:gold_ingot"
 				type: "item"
@@ -129,6 +130,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				count: 16L
 				id: "1A1B7F86B6773E18"
 				item: "minecraft:diamond"
 				type: "item"
@@ -246,6 +248,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				count: 32L
 				id: "0BEA7CB042D99359"
 				item: "minecraft:copper_ingot"
 				type: "item"
@@ -274,6 +277,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				count: 32L
 				id: "27C3961C97D67C73"
 				item: "create:zinc_ingot"
 				type: "item"
