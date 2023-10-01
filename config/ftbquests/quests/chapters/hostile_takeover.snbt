@@ -47,6 +47,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 10L
 				id: "41F81C7C9E312B3C"
 				item: {
@@ -189,6 +190,7 @@
 			y: 1.0d
 		}
 		{
+			can_repeat: true
 			description: ["Completing an entire Epic is an acomplishment of it's own right!"]
 			icon: "whisperwoods:moth_spawn_egg"
 			id: "443AB74A195CE0B0"
@@ -206,6 +208,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 16L
 				id: "57B1F0DEF7CF0546"
 				item: {
@@ -258,6 +261,7 @@
 						TrophyType: "item"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -1.5d

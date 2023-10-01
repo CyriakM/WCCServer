@@ -460,6 +460,8 @@
 		}
 		{
 			can_repeat: true
+			description: ["Casing casing, always running out!"]
+			icon: "create:andesite_casing"
 			id: "0646D0DD410AC6A3"
 			rewards: [{
 				id: "7B7CA5C05C9AB547"
@@ -480,6 +482,7 @@
 				}
 				type: "item"
 			}]
+			title: "Casing"
 			x: 4.0d
 			y: 2.0d
 		}

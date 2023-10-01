@@ -97,7 +97,12 @@
 		}
 		{
 			dependencies: ["53390258A7587154"]
-			description: [""]
+			description: [
+				"<&9Berlin&r>: You will probably run out of andisite pretty quickly"
+				"<&eYou&r>: Its totally not as common as it used to be"
+				"<&9Berlin&r>: botania can make you more, "
+				"<&9Berlin&r>: i always ask levi for some and its no problem for him"
+			]
 			id: "5584593AE0D766CB"
 			rewards: [{
 				count: 5
@@ -615,8 +620,8 @@
 				title: "create engineer SME"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: -3.0d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["29372E004906ED1E"]

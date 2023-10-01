@@ -839,6 +839,22 @@
 			x: 6.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["31F01D72BD2B6CB2"]
+			description: [
+				"<&dLevi&r>: You gotta grab one of these."
+				"<&dLevi&r>: Especially if you are working with create and need andisite"
+				"<&eYou&r>: Berlin said I should grab one of these"
+			]
+			id: "425B3B7B419EE0E6"
+			tasks: [{
+				id: "5F8D045C2ACA4EDF"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
 	]
 	title: "Sprint: Increase Floral Utilization "
 }

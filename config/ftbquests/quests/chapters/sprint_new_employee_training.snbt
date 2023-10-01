@@ -85,7 +85,15 @@
 			id: "3B62F978FE0283DE"
 			rewards: [{
 				id: "5DB02764A77ECE97"
-				item: "hexerei:crow_spawn_egg"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_spawn_egg"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Story Point\"}"
+						}
+					}
+				}
 				type: "item"
 			}]
 			subtitle: "From:JoeMama@WCC.comgov"
@@ -239,13 +247,7 @@
 			subtitle: "From:JoeMama@WCC.comgov"
 			tasks: [{
 				biome: "wythers:underground"
-				icon: {
-					Count: 1b
-					id: "endrem:undead_eye"
-					tag: {
-						Damage: 0
-					}
-				}
+				icon: "minecraft:pointed_dripstone"
 				id: "2BBBF1D65A940BCA"
 				type: "biome"
 			}]

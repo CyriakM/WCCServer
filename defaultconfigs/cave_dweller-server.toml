@@ -2,18 +2,18 @@
 [Timers]
 	#Modify the timers for the surface (to reduce or increase them), based on the general timer set (e.g. spawn timer of 300 seconds -> 0.3 turns it into 90 seconds and 1.7 turns it into 510 seconds for the surface)
 	#Range: 0.0 ~ 5.0
-	surface_timer_multiplier = 1.0
+	surface_timer_multiplier = 0.7
 
 	[Timers.Spawn]
 		#Minimum time between spawns in seconds
 		#Range: 0 ~ 86400
-		can_spawn_min = 190
+		can_spawn_min = 120
 		#Maximum time between spawns in seconds
 		#Range: 0 ~ 86400
-		can_spawn_max = 400
+		can_spawn_max = 480
 		#Chance for a spawn cooldown to occur
 		#Range: 0.0 ~ 1.0
-		can_spawn_cooldown_chance = 0.4
+		can_spawn_cooldown_chance = 0.2
 		#Spawn cooldown length in seconds
 		#Range: 0 ~ 86400
 		can_spawn_cooldown = 1200
@@ -83,7 +83,7 @@
 [Attributes]
 	#Maximum health
 	#Range: 1.0 ~ 100000.0
-	maximum_health = 60.0
+	maximum_health = 80.0
 	#Attack damage
 	#Range: 0.0 ~ 1000.0
 	attack_damage = 6.0

@@ -41,6 +41,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4C8471A468EA9990"]
 			description: [
 				"<&cIT guy&r>: holds all your discs for dumping the huge amounts of random stuff you come across"
 				"<&eYou&r>: this pack actually isnt that bad with random items"
@@ -71,6 +72,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["4A75C35A24744A9D"]
 			description: ["<&cIT guy&r>: storage modules, pretty simple"]
 			id: "4AF31452D8BFE8AB"
 			rewards: [{
@@ -96,6 +98,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["401ACA0D7AEF452C"]
 			id: "343213E4D6F34B94"
 			rewards: [{
 				count: 20
@@ -120,6 +123,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["43BF078097CB7765"]
 			description: [
 				"<&cIT guy&r>: this is the biggest they get"
 				"<&cIT guy&r>: good boy / girl / etc"
@@ -148,6 +152,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["4C8471A468EA9990"]
 			id: "401ACA0D7AEF452C"
 			rewards: [{
 				count: 10
@@ -172,6 +177,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["4AF31452D8BFE8AB"]
 			description: [
 				"<&eYou&r>: where does the extra storage come from when you make a bigger one?"
 				"<&cIT guy&r>: the existing cells associate with each other becoming greater than the sum of their parts"
@@ -201,6 +207,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["3D929BBD01995BD7"]
 			description: ["<&cIT guy&r>: ok i made that last fact about the cell size it is really witchcraft"]
 			id: "43BF078097CB7765"
 			rewards: [{
@@ -226,6 +233,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["756C15128F94784C"]
 			description: [
 				"<&cIT guy&r>: everybody in IT is a cute witch girl"
 				"<&cIT guy&r>: by everybody i mean me."
@@ -252,6 +260,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["5ACA94016EDF86E6"]
 			description: [
 				"<&cIT guy&r>: This thing is nice for making stairs"
 				"<&cIT guy&r>: seriously that recipe is SO BAD"
@@ -304,6 +313,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["26A78F43C628758D"]
 			description: [
 				"<&cIT guy&r>: drying racks are cute"
 				"<&cIT guy&r>: i like the mahogony ones"
@@ -321,6 +331,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["214ED9FED1DFD9F7"]
 			description: [
 				"<&cIT guy&r>: these are nice for making potion candles"
 				"<&eYou&r>: Levi told me to use botania for brewing"
@@ -338,6 +349,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["0D0E946895AC4F5B"]
 			description: [
 				"<&cIT guy&r>: oooo you gotta have a crystal ball"
 				"<&cIT guy&r>: every witch needs one"
