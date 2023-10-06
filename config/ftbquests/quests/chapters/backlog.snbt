@@ -70,7 +70,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 4L
+				consume_items: true
+				count: 8L
 				id: "5FB64203CAA9063E"
 				item: {
 					Count: 1b
@@ -98,7 +99,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 8L
+				consume_items: true
+				count: 16L
 				id: "13FC926F615FB63A"
 				item: {
 					Count: 1b
@@ -126,6 +128,7 @@
 			}]
 			tasks: [{
 				consume_items: true
+				count: 3L
 				id: "70186F6DFD85A628"
 				item: {
 					Count: 1b
@@ -154,6 +157,7 @@
 			}]
 			tasks: [{
 				consume_items: true
+				count: 3L
 				id: "406C0B3592309EFE"
 				item: {
 					Count: 1b
@@ -199,6 +203,7 @@
 			]
 			tasks: [{
 				consume_items: true
+				count: 3L
 				id: "4F07D66B8754BF5A"
 				item: {
 					Count: 1b
@@ -238,6 +243,7 @@
 			]
 			tasks: [{
 				consume_items: true
+				count: 3L
 				id: "553C9D4E71B79949"
 				item: {
 					Count: 1b
@@ -277,6 +283,7 @@
 			]
 			tasks: [{
 				consume_items: true
+				count: 3L
 				id: "0656DAEEAA7E5173"
 				item: {
 					Count: 1b
@@ -344,6 +351,7 @@
 			}]
 			tasks: [{
 				consume_items: true
+				count: 3L
 				id: "47AF0B6D53C031B7"
 				item: {
 					Count: 1b
@@ -372,6 +380,7 @@
 			}]
 			tasks: [{
 				consume_items: true
+				count: 3L
 				id: "6E54389AEB2A0F14"
 				item: {
 					Count: 1b
@@ -442,6 +451,7 @@
 			}]
 			tasks: [{
 				consume_items: true
+				count: 3L
 				id: "4BEF24FBC3519A31"
 				item: {
 					Count: 1b
@@ -470,6 +480,7 @@
 			}]
 			tasks: [{
 				consume_items: true
+				count: 3L
 				id: "72B12620332C82B1"
 				item: {
 					Count: 1b
